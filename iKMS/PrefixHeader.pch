@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  iKMS
+//
+//  Created by Luyen Do Van on 5/19/15.
+//  Copyright (c) 2015 Luyen Do Van. All rights reserved.
+//
+
+#ifndef iKMS_PrefixHeader_pch
+#define iKMS_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIView+Addtions.h"
+#import "AFNetworking.h"
+#import "OSConst.h"
+#import "AFAppDotNetAPIClient.h"
+#import "MBProgressHUD.h"
+#import "OLGhostAlertView.h"
+#endif
